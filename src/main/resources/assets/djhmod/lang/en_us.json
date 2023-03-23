@@ -4,8 +4,6 @@
   "item.djhmod.gold_coin": "Gold Coin",
   "item.djhmod.silver_coin": "Silver Coin",
   "item.djhmod.platinum_coin": "Platinum Coin",
-  "item.djhmod.check": "Check",
-  "item.djhmod.checkstack": "Checkbook [CREATIVE]",
 
   "itemGroup.djhmod.forth_tab": "Forth",
   "block.djhmod.computer_forth": "Forth Computer"

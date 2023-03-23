@@ -3,3 +3,12 @@
     "": {"model": "djhmod:block/computer_forth"}
   }
 }
+
+//{
+//  "variants": {
+//    "facing=east": {"y": 90, "model": "djhmod:block/computer_forth"},
+//    "facing=north": {"y": 0, "model": "djhmod:block/computer_forth"},
+//    "facing=south": {"y": 180, "model": "djhmod:block/computer_forth"},
+//    "facing=west": {"y": 270, "model": "djhmod:block/computer_forth"}
+//  }
+//}
