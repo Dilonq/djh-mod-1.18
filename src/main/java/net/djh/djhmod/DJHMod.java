@@ -1,6 +1,7 @@
 package net.djh.djhmod;
 
-import net.djh.djhmod.item.ModItems;
+import net.djh.djhmod.item.*;
+import net.djh.djhmod.block.*;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,5 +13,6 @@ public class DJHMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
