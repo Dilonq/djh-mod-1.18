@@ -4,16 +4,14 @@ import net.djh.djhmod.DJHMod;
 import net.djh.djhmod.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
+import net.minecraft.block.*;
 import net.minecraft.item.*;
 import net.minecraft.util.*;
 import net.minecraft.util.registry.Registry;
-import org.lwjgl.system.CallbackI;
 
 public class ModBlocks {
 
-    public static final Block COMPUTER_FORTH = registerBlock("computer_forth", new Block(FabricBlockSettings.of(Material.METAL)), ModItemGroup.FORTH_TAB);
+    public static final Block COMPUTER_FORTH = registerBlock("computer_forth", new Block(FabricBlockSettings.of(Material.METAL)), ModItemGroup.COMPUTING);
 
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name, block, group);

@@ -5,6 +5,10 @@
   "item.djhmod.silver_coin": "Silver Coin",
   "item.djhmod.platinum_coin": "Platinum Coin",
 
-  "itemGroup.djhmod.forth_tab": "Forth",
-  "block.djhmod.computer_forth": "Forth Computer"
+  "itemGroup.djhmod.computing": "Forth",
+  "block.djhmod.computer_forth": "Forth Computer",
+
+  "itemGroup.djhmod.explosives": "Explosives",
+  "item.djhmod.cellphone": "Cellphone",
+  "item.djhmod.vest_item": "Vest"
 }
