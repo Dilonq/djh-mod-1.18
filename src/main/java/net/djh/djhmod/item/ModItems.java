@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.util.*;
 import net.minecraft.util.registry.Registry;
-import org.lwjgl.system.CallbackI;
 
 public class ModItems {
 
@@ -13,8 +12,6 @@ public class ModItems {
     public static final Item SILVER_COIN = registerItem("silver_coin",new Item(new FabricItemSettings().group(ModItemGroup.COINAGE)));
     public static final Item GOLD_COIN = registerItem("gold_coin",new Item(new FabricItemSettings().group(ModItemGroup.COINAGE)));
     public static final Item PLATINUM_COIN = registerItem("platinum_coin",new Item(new FabricItemSettings().group(ModItemGroup.COINAGE)));
-    public static final Item CREATIVE_CHECKSTACK = registerItem("checkstack",new Item(new FabricItemSettings().group(ModItemGroup.COINAGE)));
-    public static final Item CHECK = registerItem("check",new Item(new FabricItemSettings().group(ModItemGroup.COINAGE).recipeRemainder(CREATIVE_CHECKSTACK)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(DJHMod.MODID, name), item);
