@@ -3,5 +3,9 @@
   "item.djhmod.copper_coin": "Copper Coin",
   "item.djhmod.gold_coin": "Gold Coin",
   "item.djhmod.silver_coin": "Silver Coin",
-  "item.djhmod.platinum_coin": "Platinum Coin"
+  "item.djhmod.platinum_coin": "Platinum Coin",
+  "item.djhmod.check": "Check",
+  "item.djhmod.checkstack": "Checkbook [CREATIVE]"
+
+
 }

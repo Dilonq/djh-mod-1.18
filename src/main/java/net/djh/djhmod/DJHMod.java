@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 
 public class DJHMod implements ModInitializer {
 	public static final String MODID = "djhmod";
-	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
+	public static final Logger LOGGER = LoggerFactory.getLogger("djhmod");
 
 	@Override
 	public void onInitialize() {

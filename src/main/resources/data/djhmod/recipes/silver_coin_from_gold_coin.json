@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "djhmod:gold_coin"
+    }
+  },
+  "result": {
+    "item": "djhmod:silver_coin",
+    "count": 4
+  }
+}
